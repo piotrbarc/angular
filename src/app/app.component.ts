@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'testApp1';
+  filmy = [
+    'Shrek',
+    'Scary Movie',
+    'Oszukac przeznaczenie',
+    'Star Trek',
+    'Green book'
+  ];
 }
